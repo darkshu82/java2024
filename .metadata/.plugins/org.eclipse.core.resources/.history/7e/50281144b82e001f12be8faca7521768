@@ -1,7 +1,0 @@
-
-public class Ex01 {
-	public static void main(String aregs[]) {
-//		System.out.println("Hello Java");
-		System.out.println("안녕 자바");
-	}
-}
