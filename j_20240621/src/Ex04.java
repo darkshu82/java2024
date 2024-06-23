@@ -1,64 +1,49 @@
 
 public class Ex04 {
-	
-	public static void main(String args[]) {
-		
-		// 59 page
-		int number1 = 10;
-		System.out.println("number1 : " + number1);
-		
-    number1 = number1 + 1;		
-    System.out.println("number1 : " + number1);
+  public static void main(String args[]) {
+    int num1 = 10;
+    System.out.println("num1 : " + num1);
     
-    number1 += 1;		
-    System.out.println("number1 : " + number1);
-
-    number1 += 2;		
-    System.out.println("number1 : " + number1);
+    num1 = num1 + 1;
+    System.out.println("num1 : " + num1);
     
-    // number1 = number1 - 1;
-    number1 -= 1;		
-    System.out.println("number1 : " + number1);
-
-    // number1 = number1 * 2;
-    number1 *= 2;		
-    System.out.println("number1 : " + number1);
+    num1 += 1;
+    System.out.println("num1 : " + num1);
     
-    // number1 = number1 / 2;
-    number1 /= 2;		
-    System.out.println("number1 : " + number1);
-
-    // number1 = number1 % 3;
-    number1 %= 3;		
-    System.out.println("number1 : " + number1);
+    num1 += 2;
+    System.out.println("num1 : " + num1);
     
+    num1 -= 1;
+    System.out.println("num1 : " + num1);
     
-    int number2 = 10;
-    int number3 = 8;
+    num1 *= 2;
+    System.out.println("num1 : " + num1);
     
-    // 1.25 (X)
-    // 몫 (정수 부분)
-    int result = number2 / number3;
+    num1 /= 2;
+    System.out.println("num1 : " + num1);
+    
+    num1 %= 3;
+    System.out.println("num1 : " + num1);
+    
+    int num2 = 10;
+    int num3 = 8;
+    
+    int result = num2 / num3;
     System.out.println("result : " + result);
     
-    // 나머지
-    result = number2 % number3;
-    System.out.println("result : " + result);
+    result = num2 % num3;
+    System.out.println("result : " + result);    
     
-    // 1.25 
-    double result2 = number2 / number3;
+    double result2 = (double)num2 / (double)num3;
     System.out.println("result2 : " + result2);
     
-    result2 = (double)number2 / (double)number3;
+    result2 = (double)num2 / num3;
     System.out.println("result2 : " + result2);
     
-    result2 = (double)number2 / number3;
+    result2 = num2 / (double)num3;
     System.out.println("result2 : " + result2);
-    
-    result2 = number2 / (double)number3;
-    System.out.println("result2 : " + result2);
+		
 	}
-
 }
 
 

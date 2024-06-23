@@ -13,7 +13,7 @@ public class Ex02 {
 		average = total / (double)3;
 		average = total / 3D;
 		
-		System.out.println("총점 : " + total + " 점, 평균 :" + average + " 점");
+		System.out.println("총점 : " + total + " 점, 평균 : " + average + " 점");
 		System.out.printf("총점 : %d 점, 평균 : %f 점%n", total, average);
 		System.out.printf("총점 : %d 점, 평균 : %.2f 점%n", total, average);		
 	}	
