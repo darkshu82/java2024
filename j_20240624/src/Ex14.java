@@ -17,44 +17,42 @@ public class Ex14 {
 		System.out.println("matrix[1].length : " + matrix[1].length);
 		System.out.println("matrix[2].length : " + matrix[2].length);
 		System.out.println("matrix[3].length : " + matrix[3].length);
+		System.out.println("matrix[4].length : " + matrix[4].length);
 		System.out.println("matrix[3][2].length : " + matrix[3][2]);
-		
+		System.out.println("matrix[3][1].length : " + matrix[3][1]);
+		System.out.println("\n==============================================");
 		
 		for(int out = 0; out < matrix.length; out++) {
   		for(int in = 0; in < matrix[0].length; in++) {
   			System.out.print(matrix[out][in] + " ");
   		}
-  		System.out.println("\n==============================================");
 		}
+		System.out.println("\n==============================================");
 		
 		for(int out = 0; out < matrix.length; out++) {
   		for(int in = 0; in < matrix[out].length; in++) {
   			System.out.print(matrix[out][in] + " ");
   		}
-  		System.out.println("\n==============================================");
 		}
-		
-		
 		System.out.println("\n==============================================");		
 		
-		
 		for(int i = 0; i < matrix[0].length; i++) {
-			System.out.println(matrix[0][i] + " ");
+			System.out.print(matrix[0][i] + " ");
 		}
 		System.out.println("\n==============================================");
 
 		for(int i = 0; i < matrix[1].length; i++) {
-			System.out.println(matrix[1][i] + " ");
+			System.out.print(matrix[1][i] + " ");
 		}
 		System.out.println("\n==============================================");
 		
 		for(int i = 0; i < matrix[2].length; i++) {
-			System.out.println(matrix[2][i] + " ");
+			System.out.print(matrix[2][i] + " ");
 		}
 		System.out.println("\n==============================================");
 		
 		for(int i = 0; i < matrix[3].length; i++) {
-			System.out.println(matrix[3][i] + " ");
+			System.out.print(matrix[3][i] + " ");
 		}
 		System.out.println("\n==============================================");
 		
