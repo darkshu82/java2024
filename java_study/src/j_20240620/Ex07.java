@@ -1,0 +1,16 @@
+package j_20240620;
+
+public class Ex07 {
+	
+	public static void main(String args[]) {
+		
+		// 48 page
+		String greet1 = "안녕하세요, \n저는 \"홍길동\"입니다";
+		String greet2 = "\t반갑습니다.";
+		
+		System.out.println(greet1);
+		System.out.println(greet2);
+		
+	}
+
+}
