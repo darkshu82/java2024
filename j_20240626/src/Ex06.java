@@ -1,5 +1,7 @@
 import static package01.PackageTest1.staticMethod1;
-import package01.*;
+
+import package01.PackageTest1;
+import package01.PackageTest3;
 import package02.pac.PackageTest2;
 
 public class Ex06 {

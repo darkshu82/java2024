@@ -22,18 +22,16 @@ class Student3 {
   }
 
   Student3(String name) {
-    this("안중근");
+    this("안중근", 1);
     System.out.println("Student3(String name)");
     this.name = name;
-    return;
   }
 
   Student3(String name, int grade) {
-    this("안중근", 1);
+    this("안중근", 1, "가정의학과");
     System.out.println("Student3(String name, int grade)");
     this.name = name;
     this.grade = grade;
-    return;
   }
 
   Student3(String name, int grade, String department) {    
@@ -41,8 +39,11 @@ class Student3 {
     this.name = name;
     this.grade = grade;
     this.department = department;
-    return;
   }
-
+  public String toString() {
+    // return this.name + " 은(는) " + this.grade + " 학년이고 " + this.department + " 학과입니다";
+    return String.format("%s 은(는) %d 학년이고 %s 학과입니다", 
+                        this.name, this.grade, this.department);
+ }
   
 }

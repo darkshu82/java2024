@@ -41,6 +41,7 @@ public class Ex01 {
   }
 }
 class Student{
+  
   String name = "더조은";
   int grade = 2;
   String department = "교육학과";
@@ -56,9 +57,9 @@ class Student{
     System.out.println("this : " + this);
   }
   public void displayMemberVariables() {
-    System.out.println("this.name : " + this.name);
-    System.out.println("this.grade : " + this.grade);
-    System.out.println("this.department : " + this.department);
+    System.out.println("이름 : " + this.name);
+    System.out.println("학년 : " + this.grade);
+    System.out.println("학과 : " + this.department);
   }
   
 }

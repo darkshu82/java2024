@@ -8,7 +8,7 @@ public class Ex02 {
 
     Student2 s2 = new Student2("더조은");
     System.out.println("s2 : " + s2);
-    System.out.println("s2.toString : " + s1.toString());
+    System.out.println("s2.toString : " + s2.toString());
 
     Student2 s3 = new Student2("이순신", 3);
     System.out.println("s3 : " + s3);
@@ -17,7 +17,7 @@ public class Ex02 {
     Student2 s4 = new Student2("강감찬", 4, "건축공학과");
     System.out.println("s4 : " + s4);
     System.out.println("s4.toString : " + s4.toString());
-
+    
   }
 }
 
@@ -26,8 +26,7 @@ class Student2 {
   int grade;
   String department;
 
-  Student2() {
-  }
+  Student2() { }
 
   Student2(String name) {
     this.name = name;
