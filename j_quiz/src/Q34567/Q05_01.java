@@ -1,3 +1,4 @@
+package Q34567;
 
 public class Q05_01 {
   public static void main(String[] args) {

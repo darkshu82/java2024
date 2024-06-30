@@ -15,9 +15,7 @@ public class Ex04 {
 
 class A2{
   public void methodA(Inter i) {
-//    B b = new B();
     i.method1();
-        
   }
 }
 

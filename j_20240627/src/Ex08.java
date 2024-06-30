@@ -25,27 +25,27 @@ class PlayGround {
 class Animal1 {
   @Override
   public String toString() {
-    return "Animal1";
+    return "Animal";
   }
 }
 
 class Dog1 extends Animal1 {
   @Override
   public String toString() {
-    return "Dog1";
+    return "Dog";
   }
 }
 
 class Cat1 extends Animal1 {
   @Override
   public String toString() {
-    return "Cat1";
+    return "Cat";
   }
 }
 
 class Poo1 extends Animal1 {
   @Override
   public String toString() {
-    return "Poo1";
+    return "Pooh";
   }
 }
