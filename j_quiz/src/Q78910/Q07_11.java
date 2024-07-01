@@ -5,6 +5,12 @@ public class Q07_11 {
 
     int[] arr = { 9, 5, 24, 13, 3, 21 };
     
+//    int[] arr = new int[10];
+//    for(int i = 0; i < arr.length; i++) {
+//      arr[i] = (int)(Math)
+//    }
+    
+    
     Math m = new Math();
     
     int max = m.max(arr);
