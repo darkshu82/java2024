@@ -6,20 +6,22 @@ public class Ex17 {
     Gen2 g2 = new Gen2();
     Gen3 g3 = new Gen3();
 
-    Generic5<? super Gen2> gen2 = new Generic5<Gen1>(g1);
-    Generic5<? super Gen2> gen2_0 = new Generic5<Gen2>(g2);
-    Generic5<? super Gen2> gen2_1 = new Generic5<Gen2>(g3);
-//    Generic5<? super Gen2> g2_2 = new Generic5<Gen3>(g3);
+    Generic5<? super Gen2> gen2_1 = new Generic5<Gen1>(g1);
+    Generic5<? super Gen2> gen2_2 = new Generic5<Gen2>(g2);
+    Generic5<? super Gen2> gen2_3 = new Generic5<Gen2>(g3);
+//  Generic5<? super Gen2> gen3_1 = new Generic5<Gen3>(g3);
 
-    Gen1 gen10 = (Gen1) gen2.get();
-    Gen2 gen20 = (Gen2) gen2_0.get();
-    Gen3 gen30 = (Gen3) gen2_1.get();
+    Gen1 gen1 = (Gen1) gen2_1.get();
+    Gen2 gen2 = (Gen2) gen2_2.get();
+    Gen3 gen3 = (Gen3) gen2_3.get();
     
-    System.out.println(gen10.getName());
-    System.out.println(gen20.getName());
-    System.out.println(gen30.getName());
+    System.out.println(gen1.getName());
+    System.out.println(gen2.getName());
+    System.out.println(gen3.getName());
     
-    
+    System.out.println(gen1);
+    System.out.println(gen2);
+    System.out.println(gen3);
   }
 }
 
